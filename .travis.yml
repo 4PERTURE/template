@@ -36,7 +36,7 @@ install:
 
 before_deploy:
   - chmod +x scripts/changelog.sh
-  - cp app/build/outputs/apk/debug/*.apk SimsTheme-$TRAVIS_BUILD_NUMBER.apk
+  - cp app/build/outputs/apk/debug/*.apk ThiccStatus-$TRAVIS_BUILD_NUMBER.apk
 
 
 deploy:
